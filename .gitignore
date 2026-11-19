@@ -1,0 +1,24 @@
+# Dependencies, build output, and local test data
+/node_modules/
+/dist/
+/.npm-cache/
+/.local-test/
+/coverage/
+*.tsbuildinfo
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+/.vscode/
+/.idea/
+/.agents/
+/.codex/
+.DS_Store
+Thumbs.db
+
+# Internal development notes
+/AGENTS.md
+/FEATURE_LIST.md
+/docs/superpowers/

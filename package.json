@@ -1,0 +1,31 @@
+{
+  "name": "knowledge-graph",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite",
+    "check": "vue-tsc --noEmit",
+    "test": "node --test test/*.test.ts",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.76.0",
+    "@xyflow/vue": "^2.0.2",
+    "vue": "^3.5.27",
+    "y-indexeddb": "^9.0.12",
+    "yjs": "^13.6.31"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.0",
+    "vite-plugin-pwa": "^2.0.0",
+    "vue-tsc": "^3.2.0"
+  }
+}
